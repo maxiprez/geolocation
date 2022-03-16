@@ -1,0 +1,20 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    overflow-y: hidden;  
+    flex-direction: column;  
+}
+
+li{
+    line-height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#map{
+    border: 2px solid black;
+    width: 80vw;
+    height: 50vh;
+}
